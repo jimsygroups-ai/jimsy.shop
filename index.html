@@ -3,221 +3,220 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jimsy — Software studio for products that ship</title>
-  <meta name="description" content="Jimsy designs and builds web apps, mobile apps, AI automation and cloud infrastructure for teams that need software shipped well.">
-  <meta name="theme-color" content="#f3efe6">
+  <title>Jimsy | Software studio for web, mobile and AI</title>
+  <meta name="description" content="Jimsy is a small software studio. We design and build web apps, mobile apps, AI tools and cloud setups.">
+  <meta name="theme-color" content="#0a0a0b">
   <link rel="canonical" href="https://jimsy.shop/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Jimsy — Software studio for products that ship">
-  <meta property="og:description" content="Web apps, mobile, AI automation and cloud — designed and built end to end.">
+  <meta property="og:title" content="Jimsy | Software studio for web, mobile and AI">
+  <meta property="og:description" content="Web apps, mobile apps, AI tools and cloud setups, designed and built by one small team.">
   <meta property="og:url" content="https://jimsy.shop/">
   <meta property="og:image" content="https://jimsy.shop/og.svg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Inter+Tight:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"ProfessionalService","name":"Jimsy","url":"https://jimsy.shop/","description":"Software studio: web apps, mobile apps, AI automation, cloud and UI/UX design.","email":"hello@jimsy.shop"}
+  {"@context":"https://schema.org","@type":"ProfessionalService","name":"Jimsy","url":"https://jimsy.shop/","description":"Software studio: web apps, mobile apps, AI tools, cloud and UI/UX design.","email":"hello@jimsy.shop"}
   </script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
+  <div class="cursor" aria-hidden="true"></div>
 
   <header class="nav" id="top">
     <a class="brand" href="#top" aria-label="Jimsy home">
-      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="7" fill="currentColor"/><path d="M19 8v11.5a5 5 0 0 1-9.6 2" fill="none" stroke="var(--paper)" stroke-width="3.2" stroke-linecap="round"/><circle cx="19" cy="8" r="2.4" fill="var(--accent)"/></svg>
-      <span>Jimsy</span>
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="2" y="2" width="28" height="28" rx="8" fill="var(--accent)"/><path d="M19 8v11.5a5 5 0 0 1-9.6 2" fill="none" stroke="var(--bg)" stroke-width="3.2" stroke-linecap="round"/></svg>
+      <span>jimsy</span>
     </a>
     <nav aria-label="Primary">
       <ul class="nav-links">
         <li><a href="#services">Services</a></li>
         <li><a href="#process">Process</a></li>
-        <li><a href="#engage">Engagements</a></li>
+        <li><a href="#engage">Pricing</a></li>
         <li><a href="#faq">FAQ</a></li>
       </ul>
     </nav>
-    <a class="btn btn-ink nav-cta" href="#contact">Start a project <span aria-hidden="true">→</span></a>
+    <a class="btn btn-accent nav-cta magnetic" href="#contact">Start a project</a>
     <button class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
   </header>
   <div class="mobile-nav" id="mobile-nav" hidden>
-    <a href="#services">Services</a><a href="#process">Process</a><a href="#engage">Engagements</a><a href="#faq">FAQ</a><a href="#contact">Start a project →</a>
+    <a href="#services">Services</a><a href="#process">Process</a><a href="#engage">Pricing</a><a href="#faq">FAQ</a><a href="#contact">Start a project</a>
   </div>
 
   <main id="main">
     <!-- HERO -->
     <section class="hero">
-      <canvas id="field" aria-hidden="true"></canvas>
+      <canvas id="orb" aria-hidden="true"></canvas>
       <div class="hero-inner">
-        <p class="eyebrow mono"><span class="dot"></span> Software studio · taking new projects</p>
-        <h1 class="display">
-          We build software<br>
-          that <em>actually</em> <span class="swap" aria-live="polite"><span id="swap-word">ships.</span></span>
+        <p class="eyebrow mono"><span class="dot"></span>Software studio · Open for new projects</p>
+        <h1 class="hero-title">
+          <span class="line"><span>Software</span></span>
+          <span class="line"><span>built to <i class="swap"><span id="swap-word">ship</span></i></span></span>
         </h1>
-        <p class="lede">Jimsy is a small, senior studio that designs, engineers and launches web apps, mobile apps, AI automations and cloud systems — from first sketch to production.</p>
-        <div class="hero-actions">
-          <a class="btn btn-accent" href="#contact">Tell us what you're building <span aria-hidden="true">→</span></a>
-          <a class="btn btn-ghost" href="#services">See services</a>
+        <div class="hero-foot">
+          <p class="lede">Jimsy is a small software studio. We design and build web apps, mobile apps, AI tools and cloud setups for teams that need them working on launch day.</p>
+          <div class="hero-actions">
+            <a class="btn btn-accent magnetic" href="#contact">Tell us about your project</a>
+            <a class="btn btn-line magnetic" href="#services">What we do</a>
+          </div>
         </div>
       </div>
-      <aside class="console" aria-label="Example build log">
-        <div class="console-bar"><i></i><i></i><i></i><span class="mono">jimsy ~ deploy</span></div>
-        <pre class="mono" id="console"></pre>
-      </aside>
+      <a class="scroll-cue mono" href="#services" aria-label="Scroll to services"><span></span>Scroll</a>
     </section>
 
     <!-- MARQUEE -->
-    <div class="marquee" aria-label="Technologies we work with">
-      <div class="marquee-track mono">
-        <span>React</span><span>Next.js</span><span>TypeScript</span><span>Node</span><span>Python</span><span>Java</span><span>Flutter</span><span>React Native</span><span>PostgreSQL</span><span>MongoDB</span><span>AWS</span><span>GCP</span><span>Docker</span><span>Kubernetes</span><span>LLM APIs</span><span>Figma</span>
-        <span aria-hidden="true">React</span><span aria-hidden="true">Next.js</span><span aria-hidden="true">TypeScript</span><span aria-hidden="true">Node</span><span aria-hidden="true">Python</span><span aria-hidden="true">Java</span><span aria-hidden="true">Flutter</span><span aria-hidden="true">React Native</span><span aria-hidden="true">PostgreSQL</span><span aria-hidden="true">MongoDB</span><span aria-hidden="true">AWS</span><span aria-hidden="true">GCP</span><span aria-hidden="true">Docker</span><span aria-hidden="true">Kubernetes</span><span aria-hidden="true">LLM APIs</span><span aria-hidden="true">Figma</span>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Web apps</span><span>Mobile apps</span><span>AI tools</span><span>Cloud</span><span>UI/UX</span><span>Maintenance</span>
+        <span>Web apps</span><span>Mobile apps</span><span>AI tools</span><span>Cloud</span><span>UI/UX</span><span>Maintenance</span>
       </div>
     </div>
 
     <!-- SERVICES -->
     <section class="section" id="services">
-      <div class="section-head reveal">
-        <p class="kicker mono">01 — Services</p>
-        <h2 class="h2">Six things we do,<br><em>and do properly.</em></h2>
+      <div class="section-head">
+        <p class="kicker mono">(01) Services</p>
+        <h2 class="h2 split">What we build</h2>
       </div>
-      <ol class="services">
-        <li class="service reveal">
-          <span class="num mono">01</span>
+      <ol class="rows">
+        <li class="row reveal">
+          <span class="row-n mono">01</span>
           <h3>Web applications</h3>
-          <p>Dashboards, SaaS products, portals and internal tools. Fast, accessible and built on a stack your team can own.</p>
-          <ul class="tags mono"><li>React</li><li>Next.js</li><li>APIs</li></ul>
+          <p>Dashboards, SaaS products, customer portals and internal tools, on a stack your own team can maintain.</p>
+          <span class="row-tags mono">React · Next.js · APIs</span>
         </li>
-        <li class="service reveal">
-          <span class="num mono">02</span>
+        <li class="row reveal">
+          <span class="row-n mono">02</span>
           <h3>Mobile apps</h3>
-          <p>iOS and Android from one codebase, with native polish where it counts — offline, push, payments, store release.</p>
-          <ul class="tags mono"><li>Flutter</li><li>React Native</li></ul>
+          <p>iOS and Android from one codebase, including offline mode, push notifications, payments and the store release.</p>
+          <span class="row-tags mono">Flutter · React Native</span>
         </li>
-        <li class="service reveal">
-          <span class="num mono">03</span>
-          <h3>AI &amp; automation</h3>
-          <p>LLM assistants, document extraction, workflow bots and data pipelines that remove hours of manual work each week.</p>
-          <ul class="tags mono"><li>LLMs</li><li>RAG</li><li>Agents</li></ul>
+        <li class="row reveal">
+          <span class="row-n mono">03</span>
+          <h3>AI tools &amp; automation</h3>
+          <p>Chat assistants, document extraction and workflow bots that take repetitive work off your team's plate.</p>
+          <span class="row-tags mono">LLMs · RAG · Agents</span>
         </li>
-        <li class="service reveal">
-          <span class="num mono">04</span>
+        <li class="row reveal">
+          <span class="row-n mono">04</span>
           <h3>Cloud &amp; DevOps</h3>
-          <p>Infrastructure as code, CI/CD, observability and cost tuning — so releases are boring and outages are rare.</p>
-          <ul class="tags mono"><li>AWS</li><li>GCP</li><li>K8s</li></ul>
+          <p>Infrastructure as code, CI/CD pipelines, monitoring and cost reviews on AWS or Google Cloud.</p>
+          <span class="row-tags mono">AWS · GCP · Kubernetes</span>
         </li>
-        <li class="service reveal">
-          <span class="num mono">05</span>
+        <li class="row reveal">
+          <span class="row-n mono">05</span>
           <h3>UI / UX design</h3>
-          <p>Research, flows, prototypes and design systems. We design with engineering in the room, so nothing gets lost in handoff.</p>
-          <ul class="tags mono"><li>Figma</li><li>Prototypes</li></ul>
+          <p>User flows, clickable prototypes and design systems, made with the engineers who will build them.</p>
+          <span class="row-tags mono">Figma · Prototyping</span>
         </li>
-        <li class="service reveal">
-          <span class="num mono">06</span>
-          <h3>Care &amp; scaling</h3>
-          <p>Taking over existing code: audits, performance work, security fixes and steady feature delivery on a monthly plan.</p>
-          <ul class="tags mono"><li>Audits</li><li>Retainers</li></ul>
+        <li class="row reveal">
+          <span class="row-n mono">06</span>
+          <h3>Maintenance</h3>
+          <p>We take over existing code, fix security and performance issues, and keep shipping features each month.</p>
+          <span class="row-tags mono">Audits · Retainers</span>
         </li>
       </ol>
     </section>
 
-    <!-- PROCESS -->
-    <section class="section process" id="process">
-      <div class="section-head reveal">
-        <p class="kicker mono">02 — Process</p>
-        <h2 class="h2">From idea to production<br><em>in four honest steps.</em></h2>
-      </div>
-      <div class="steps">
-        <article class="step reveal">
-          <div class="step-top"><span class="mono">Week 0</span><span class="step-n">1</span></div>
-          <h3>Discover</h3>
-          <p>A short call and a written brief. We pin down the problem, users, constraints and what "done" looks like.</p>
-        </article>
-        <article class="step reveal">
-          <div class="step-top"><span class="mono">Week 1–2</span><span class="step-n">2</span></div>
-          <h3>Design</h3>
-          <p>Flows and clickable prototypes you can test with real people before a line of production code.</p>
-        </article>
-        <article class="step reveal">
-          <div class="step-top"><span class="mono">Weekly</span><span class="step-n">3</span></div>
-          <h3>Build</h3>
-          <p>Short cycles with a working preview link every week. You see progress, not status reports.</p>
-        </article>
-        <article class="step reveal">
-          <div class="step-top"><span class="mono">Launch +</span><span class="step-n">4</span></div>
-          <h3>Ship &amp; support</h3>
-          <p>Launch, monitoring and handover docs. Your code, your repos, your accounts — always.</p>
-        </article>
-      </div>
+    <!-- STATEMENT -->
+    <section class="statement">
+      <p class="statement-text" id="statement">Small senior team. Code and accounts in your name from the first day. A fixed quote before any work starts. Working previews every week.</p>
     </section>
 
-    <!-- PRINCIPLES -->
-    <section class="section principles">
-      <div class="principle reveal"><span class="mono">You own everything</span><p>Code, designs, cloud accounts and credentials live with you from day one.</p></div>
-      <div class="principle reveal"><span class="mono">Senior people only</span><p>The people you talk to are the people writing the code.</p></div>
-      <div class="principle reveal"><span class="mono">Fixed scope, clear price</span><p>A written quote before work starts. No surprise invoices.</p></div>
+    <!-- PROCESS (horizontal pin on desktop) -->
+    <section class="process" id="process">
+      <div class="process-pin">
+        <div class="process-head">
+          <p class="kicker mono">(02) Process</p>
+          <h2 class="h2">How a project runs</h2>
+          <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+        </div>
+        <div class="track" id="track">
+          <article class="card">
+            <span class="card-n">01</span>
+            <p class="mono card-when">Week 0</p>
+            <h3>Discovery</h3>
+            <p>A call, then a written brief covering the problem, the users, the limits and what finished looks like.</p>
+          </article>
+          <article class="card">
+            <span class="card-n">02</span>
+            <p class="mono card-when">Weeks 1 to 2</p>
+            <h3>Design</h3>
+            <p>Flows and a clickable prototype you can put in front of real users before we write production code.</p>
+          </article>
+          <article class="card">
+            <span class="card-n">03</span>
+            <p class="mono card-when">Every week</p>
+            <h3>Build</h3>
+            <p>Short cycles. Each week you get a preview link you can click through, not a status report.</p>
+          </article>
+          <article class="card">
+            <span class="card-n">04</span>
+            <p class="mono card-when">Launch and after</p>
+            <h3>Launch &amp; support</h3>
+            <p>Release, monitoring and handover notes. The repos, cloud accounts and passwords stay with you.</p>
+          </article>
+        </div>
+      </div>
     </section>
 
     <!-- ENGAGEMENTS -->
     <section class="section" id="engage">
-      <div class="section-head reveal">
-        <p class="kicker mono">03 — Engagements</p>
-        <h2 class="h2">Pick the shape<br><em>that fits the work.</em></h2>
+      <div class="section-head">
+        <p class="kicker mono">(03) Pricing</p>
+        <h2 class="h2 split">Ways to work with us</h2>
       </div>
       <div class="plans">
         <article class="plan reveal">
           <p class="plan-name mono">Sprint</p>
           <h3>Prototype or MVP</h3>
-          <p class="plan-desc">A focused build to validate an idea or hit a launch date.</p>
-          <ul class="plan-list">
-            <li>Fixed scope &amp; fixed quote</li><li>Design + build</li><li>2–8 weeks</li><li>Launch support included</li>
-          </ul>
-          <a class="btn btn-ghost" href="#contact" data-plan="Sprint">Request a quote</a>
+          <p class="plan-desc">One focused build to test an idea or meet a launch date.</p>
+          <ul class="plan-list"><li>Fixed scope and fixed quote</li><li>Design and build</li><li>2 to 8 weeks</li><li>Launch support included</li></ul>
+          <a class="btn btn-line" href="#contact" data-plan="Sprint">Get a quote</a>
         </article>
         <article class="plan plan-feature reveal">
-          <p class="plan-name mono">Product team <span class="badge">Most chosen</span></p>
+          <p class="plan-name mono">Product team</p>
           <h3>Dedicated squad</h3>
-          <p class="plan-desc">Designer + engineers working as an extension of your team.</p>
-          <ul class="plan-list">
-            <li>Monthly, cancel any time</li><li>Weekly demos &amp; planning</li><li>Web, mobile, AI or cloud</li><li>Your tools, your repos</li>
-          </ul>
+          <p class="plan-desc">A designer and engineers who work as part of your team.</p>
+          <ul class="plan-list"><li>Monthly, cancel any time</li><li>Weekly demo and planning</li><li>Web, mobile, AI or cloud</li><li>Works in your tools and repos</li></ul>
           <a class="btn btn-accent" href="#contact" data-plan="Product team">Talk to us</a>
         </article>
         <article class="plan reveal">
           <p class="plan-name mono">Care</p>
           <h3>Maintenance retainer</h3>
-          <p class="plan-desc">Keep an existing product healthy, secure and moving.</p>
-          <ul class="plan-list">
-            <li>Monthly hour bank</li><li>Updates &amp; security fixes</li><li>Monitoring &amp; on-call</li><li>Small features</li>
-          </ul>
-          <a class="btn btn-ghost" href="#contact" data-plan="Care">Request a quote</a>
+          <p class="plan-desc">Keep a live product updated, secure and improving.</p>
+          <ul class="plan-list"><li>Monthly block of hours</li><li>Updates and security fixes</li><li>Monitoring and on-call</li><li>Small features</li></ul>
+          <a class="btn btn-line" href="#contact" data-plan="Care">Get a quote</a>
         </article>
       </div>
     </section>
 
     <!-- FAQ -->
     <section class="section faq" id="faq">
-      <div class="section-head reveal">
-        <p class="kicker mono">04 — FAQ</p>
-        <h2 class="h2">Questions,<br><em>answered plainly.</em></h2>
+      <div class="section-head">
+        <p class="kicker mono">(04) FAQ</p>
+        <h2 class="h2 split">Common questions</h2>
       </div>
       <div class="faq-list">
-        <details class="reveal"><summary>How much does a project cost?</summary><p>It depends on scope. After a short call we send a written, fixed quote — you'll know the price before any work begins.</p></details>
-        <details class="reveal"><summary>Can you take over an existing codebase?</summary><p>Yes. We start with a short paid audit, share what we find, and then agree a plan for fixes and new features.</p></details>
-        <details class="reveal"><summary>Who owns the code and designs?</summary><p>You do. Work lives in your repositories and accounts, and full rights transfer to you on payment.</p></details>
-        <details class="reveal"><summary>Do you work with teams in other time zones?</summary><p>Yes — we work remotely with clients in any time zone and keep a few hours of overlap for calls.</p></details>
-        <details class="reveal"><summary>Will you sign an NDA?</summary><p>Of course. Send yours over, or we can provide a standard mutual NDA.</p></details>
+        <details class="reveal"><summary>How much does a project cost?</summary><p>It depends on the scope. After a short call we send a written fixed quote, so you know the price before work begins.</p></details>
+        <details class="reveal"><summary>Can you take over an existing codebase?</summary><p>Yes. We start with a short paid audit, walk you through what we found, and agree a plan for fixes and new features.</p></details>
+        <details class="reveal"><summary>Who owns the code and designs?</summary><p>You do. The work lives in your repositories and accounts, and full rights pass to you once invoices are paid.</p></details>
+        <details class="reveal"><summary>Do you work with teams in other time zones?</summary><p>Yes. We work remotely and keep a few hours of overlap each day for calls.</p></details>
+        <details class="reveal"><summary>Will you sign an NDA?</summary><p>Yes. Send us yours, or we can share a standard mutual NDA.</p></details>
       </div>
     </section>
 
     <!-- CONTACT -->
     <section class="contact" id="contact">
       <div class="contact-inner">
-        <div class="contact-copy reveal">
-          <p class="kicker mono">05 — Start a project</p>
-          <h2 class="display-2">Have something<br>to <em>build?</em></h2>
-          <p>Tell us a little about it. We reply within one business day with questions or a next step.</p>
-          <a class="mail mono" href="mailto:hello@jimsy.shop">hello@jimsy.shop</a>
+        <div class="contact-copy">
+          <p class="kicker mono">(05) Contact</p>
+          <h2 class="contact-title split">Got a project in mind?</h2>
+          <p>Tell us what you're building and when you need it. We reply within one business day.</p>
+          <a class="mail magnetic" href="mailto:hello@jimsy.shop">hello@jimsy.shop <span aria-hidden="true">↗</span></a>
         </div>
         <form class="form reveal" id="contact-form" novalidate>
           <label>Your name<input name="name" autocomplete="name" required></label>
@@ -227,20 +226,18 @@
             <div class="chips">
               <label><input type="checkbox" name="need" value="Web app"><span>Web app</span></label>
               <label><input type="checkbox" name="need" value="Mobile app"><span>Mobile app</span></label>
-              <label><input type="checkbox" name="need" value="AI / automation"><span>AI / automation</span></label>
+              <label><input type="checkbox" name="need" value="AI tool"><span>AI tool</span></label>
               <label><input type="checkbox" name="need" value="Cloud / DevOps"><span>Cloud / DevOps</span></label>
               <label><input type="checkbox" name="need" value="UI/UX design"><span>UI/UX design</span></label>
               <label><input type="checkbox" name="need" value="Maintenance"><span>Maintenance</span></label>
             </div>
           </fieldset>
           <label>Engagement
-            <select name="plan">
-              <option>Not sure yet</option><option>Sprint</option><option>Product team</option><option>Care</option>
-            </select>
+            <select name="plan"><option>Not sure yet</option><option>Sprint</option><option>Product team</option><option>Care</option></select>
           </label>
           <label>Project details<textarea name="message" rows="4" placeholder="What are you building, and by when?" required></textarea></label>
-          <button class="btn btn-accent" type="submit">Send enquiry <span aria-hidden="true">→</span></button>
-          <p class="form-note mono" id="form-note" role="status">Opens your email app with everything filled in.</p>
+          <button class="btn btn-accent magnetic" type="submit">Send enquiry</button>
+          <p class="form-note mono" id="form-note" role="status">This opens your email app with the details filled in.</p>
         </form>
       </div>
     </section>
@@ -249,7 +246,7 @@
   <footer class="footer">
     <div class="footer-big" aria-hidden="true">jimsy</div>
     <div class="footer-row mono">
-      <span>© <span id="year">2026</span> Jimsy · Software studio</span>
+      <span>© <span id="year">2026</span> Jimsy. Software studio.</span>
       <a href="mailto:hello@jimsy.shop">hello@jimsy.shop</a>
       <a href="#top">Back to top ↑</a>
     </div>
